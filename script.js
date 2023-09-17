@@ -1,7 +1,7 @@
 const gridContainer = document.getElementById("grid-container");
 
-const numRows    = 6
-const numColumns = 6
+const numRows    = 16
+const numColumns = 16
 
 for (let i = 0; i < numRows; i++ ) {
     for (let j = 0; j < numColumns; j++) {

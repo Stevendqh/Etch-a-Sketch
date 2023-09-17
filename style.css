@@ -1,16 +1,18 @@
+/* Style for the grid container using Flexbox */
 #grid-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    
+    flex-wrap: wrap; /* Allow the squares to wrap when necessary */
+    justify-content: flex-start; /* Start the squares from the left */
+    align-content: flex-start; /* Align the squares to the top */
+    width: 100%; /* Adjust the container width as needed */
 }
 
-
+/* Style for the grid squares */
 .grid-square {
-    width: 100px;
-    height: 100px;
-    background-color: lightgray;
-    border: 5px solid rgb(230, 17, 17);
-    margin: 5px;
-    box-sizing: border-box;
+    min-width: 50px;
+    min-height: 50px; /* Adjust the height as needed */
+    background-color: tomato;
+    border: 1px solid gray;
+    margin: 5px; /* Spacing between grid squares */
+    box-sizing: border-box; /* Include padding and border in the width */
 }
