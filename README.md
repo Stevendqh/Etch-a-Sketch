@@ -1,0 +1,1 @@
+This is an exercise from The-Odin-Project that I am going through to practice my DOM manipulation skills.  
