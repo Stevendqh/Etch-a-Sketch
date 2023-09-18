@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --primary-dark: #333;
     --primary-light: #ededed;
@@ -221,3 +222,21 @@
       height: 300px;
     }
   }
+=======
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+
+.grid-square {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    border: 5px solid rgb(230, 17, 17);
+    margin: 5px;
+    box-sizing: border-box;
+}
+>>>>>>> parent of 808bb83 (set some flexbox properties)
