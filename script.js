@@ -3,9 +3,14 @@ const DEFAULT_MODE = 'color'
 const DEFAULT_SIZE = 16
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 let currentColor = DEFAULT_COLOR
 let currentMode = DEFAULT_MODE
 let currentSize = DEFAULT_SIZE
+=======
+const numRows    = 6
+const numColumns = 6
+>>>>>>> parent of 808bb83 (set some flexbox properties)
 =======
 const numRows    = 6
 const numColumns = 6
